@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:304000141138:task-definition/TestTaskDef:1",
+   
     "containerDefinitions": [
         {
             "name": "Docker",
@@ -34,34 +34,12 @@
     "family": "TestTaskDef",
     "executionRoleArn": "arn:aws:iam::304000141138:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    
     "volumes": [],
-    "status": "ACTIVE",
-    "requiresAttributes": [
-        {
-            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
-        },
-        {
-            "name": "ecs.capability.execution-role-awslogs"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
-        },
-        {
-            "name": "ecs.capability.task-eni"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
-        }
-    ],
+    
+    
     "placementConstraints": [],
-    "compatibilities": [
-        "EC2",
-        "FARGATE"
-    ],
+ 
     "requiresCompatibilities": [
         "EC2"
     ],
@@ -71,7 +49,6 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-07-13T16:34:42.721Z",
-    "registeredBy": "arn:aws:iam::304000141138:user/terraform_admin",
+   
     "tags": []
 }
