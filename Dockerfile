@@ -3,6 +3,6 @@
 FROM ubuntu:latest
 WORKDIR /app
 COPY . .
-RUN yarn install --production
+RUN install --production
 CMD ["node", "src/index.js"]
 EXPOSE 3000
