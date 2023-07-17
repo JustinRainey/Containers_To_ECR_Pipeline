@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:304000141138:task-definition/TestTaskDef:24",
+   
     "containerDefinitions": [
         {
             "name": "Docker",
@@ -34,9 +34,7 @@
     "taskRoleArn": "arn:aws:iam::304000141138:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::304000141138:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 24,
     "volumes": [],
-    "status": "ACTIVE",
    
     "placementConstraints": [],
 
